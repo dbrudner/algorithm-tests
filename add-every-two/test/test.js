@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const {reduc} = require('../reduc');
+const addEveryTwo = require('../add-every-two');
 
 describe('Reduc', function() {
     

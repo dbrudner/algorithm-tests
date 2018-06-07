@@ -1,4 +1,4 @@
-exports.reduc = function(array) {
+module.exports = function(array) {
 
     if (array.length % 2 !== 0) return Error("Odd array length");
 
