@@ -6,8 +6,7 @@ module.exports = function(string) {
             return letter.toLowerCase()
         } else if ((/[a-z]/).test(letter)) {
             return letter.toUpperCase()
-        }
-        else {
+        } else {
             return letter
         }
     })
